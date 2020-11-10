@@ -1,7 +1,6 @@
 name: ffr_custom_switch
 description: A custom switch by ffr
 version: 0.0.1
-author: devteam fair-rates <devteam@fair-rates.ch>
 homepage: https://fair-rates.ch
 
 environment:
