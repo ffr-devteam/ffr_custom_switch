@@ -1,6 +1,6 @@
 name: ffr_custom_switch
-description: A custom switch by ffr
-version: 0.0.2
+description: A custom switch designed as a list tile by the ffr-devteam
+version: 0.0.3
 homepage: https://fair-rates.ch
 repository: https://github.com/ffr-devteam/ffr_custom_switch
 

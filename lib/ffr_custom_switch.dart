@@ -48,7 +48,6 @@ class _FFRCustomSwitchState extends State<FFRCustomSwitch> with SingleTickerProv
       builder: (context, child) {
         return GestureDetector(
           onTap: () {
-            print(_circleAnimation.value);
             if (_animationController.isCompleted) {
               _animationController.reverse();
             } else {
