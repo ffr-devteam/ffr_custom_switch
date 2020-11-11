@@ -10,6 +10,7 @@ class FFRCustomSwitch extends StatefulWidget {
   final Color inactiveColor;
   final Color thumbColor;
   final String lable;
+  final TextStyle style;
 
   const FFRCustomSwitch({
     Key key,
@@ -19,6 +20,7 @@ class FFRCustomSwitch extends StatefulWidget {
     @required this.activeColor,
     @required this.lable,
     @required this.thumbColor,
+    this.style,
   }) : super(key: key);
 
   @override
@@ -58,7 +60,7 @@ class _FFRCustomSwitchState extends State<FFRCustomSwitch> with SingleTickerProv
                 : widget.onChanged(false);
           },
           child: ListTile(
-            title: Text(widget.lable),
+            title: Text(widget.lable, style: widget.style,),
             trailing: Container(
               width: 65,
               height: 30,

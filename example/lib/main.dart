@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
               inactiveColor: Colors.red,
               activeColor: Colors.green,
               lable: 'Do you like this package?',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               thumbColor: Colors.grey),
         ),
       ),
