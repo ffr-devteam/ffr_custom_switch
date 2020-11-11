@@ -27,7 +27,8 @@ class FFRCustomSwitch extends StatefulWidget {
   _FFRCustomSwitchState createState() => _FFRCustomSwitchState();
 }
 
-class _FFRCustomSwitchState extends State<FFRCustomSwitch> with SingleTickerProviderStateMixin {
+class _FFRCustomSwitchState extends State<FFRCustomSwitch>
+    with SingleTickerProviderStateMixin {
   Animation _circleAnimation;
   AnimationController _animationController;
 
@@ -60,7 +61,10 @@ class _FFRCustomSwitchState extends State<FFRCustomSwitch> with SingleTickerProv
                 : widget.onChanged(false);
           },
           child: ListTile(
-            title: Text(widget.lable, style: widget.style,),
+            title: Text(
+              widget.lable,
+              style: widget.style,
+            ),
             trailing: Container(
               width: 65,
               height: 30,
