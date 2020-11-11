@@ -9,3 +9,4 @@
 * added example to package
 * updated pubspec.yaml
 * removed print statements
+* added customizing option for lable
